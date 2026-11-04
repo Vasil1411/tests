@@ -1,0 +1,25 @@
+# Oracle Instant Client (папки като instantclient_23_9 и подобни)
+instantclient_**/
+*.dll
+*.sym
+*.exe
+*.jar
+*.ora
+
+# System files
+.DS_Store
+
+# Node modules
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+vc_redist.x64.exe
+
+# Oracle Instant Client & Java metadata
+META-INF/
+*.RSA
+*.SF
+*.MF
